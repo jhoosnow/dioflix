@@ -7,33 +7,62 @@
     padding: 0;
     margin: 0;
 }
-
+/* ELEMENTOS BASE */
 body{
     background: var(--preto);
     font-family:'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    text-align: center;
+    height: 120px;
+    width: 100%;
+    flex-direction: column;
 }
 
 .logo{
-    margin-left: 8px;
     color:red;
     font-family: 'Arial Black', Times;
-    font-size: 40px;
+    font-size: 50px;
+    justify-content: center;
+}
+
+.menu {
+    text-align: center;
+}
+
+.texto{
+    padding-top: 10px;
+    text-align: center;
+    size: 20px;
 }
 
 header nav a{
     text-decoration: none;
     color: #aaa;
-    margin-right: 10px;
+    margin: 10px;
+    justify-content: center;
 }
 
 header nav a:hover{
     color: #fff;
 
+}
+
+.botao{
+    display: flex;
+    border: solid;
+    height: 30px;
+    width: 100px;
+    color: white;
+    align-items: center;
+}
+
+
+.imagem{
+    font-size: 16px;
+    background:url('../img/hunter.jpg');
+    height: 800px;
+    background-size: cover;
 }
